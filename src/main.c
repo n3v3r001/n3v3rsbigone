@@ -76,16 +76,16 @@ static GBitmap *time_digits_images[TOTAL_TIME_DIGITS];
 static BitmapLayer *time_digits_layers[TOTAL_TIME_DIGITS];
 
 const int BIG_DIGIT_IMAGE_RESOURCE_IDS[] = {
-  RESOURCE_ID_IMAGE_NUM_RECT_0,
-  RESOURCE_ID_IMAGE_NUM_RECT_1,
-  RESOURCE_ID_IMAGE_NUM_RECT_2,
-  RESOURCE_ID_IMAGE_NUM_RECT_3,
-  RESOURCE_ID_IMAGE_NUM_RECT_4,
-  RESOURCE_ID_IMAGE_NUM_RECT_5,
-  RESOURCE_ID_IMAGE_NUM_RECT_6,
-  RESOURCE_ID_IMAGE_NUM_RECT_7,
-  RESOURCE_ID_IMAGE_NUM_RECT_8,
-  RESOURCE_ID_IMAGE_NUM_RECT_9
+  RESOURCE_ID_IMAGE_NUM_OVAL_0,
+  RESOURCE_ID_IMAGE_NUM_OVAL_1,
+  RESOURCE_ID_IMAGE_NUM_OVAL_2,
+  RESOURCE_ID_IMAGE_NUM_OVAL_3,
+  RESOURCE_ID_IMAGE_NUM_OVAL_4,
+  RESOURCE_ID_IMAGE_NUM_OVAL_5,
+  RESOURCE_ID_IMAGE_NUM_OVAL_6,
+  RESOURCE_ID_IMAGE_NUM_OVAL_7,
+  RESOURCE_ID_IMAGE_NUM_OVAL_8,
+  RESOURCE_ID_IMAGE_NUM_OVAL_9
 
 };
 
@@ -195,10 +195,10 @@ static void update_battery(BatteryChargeState charge_state) {
 
 // n3v3r: if bluetooth is disconnected change the bitmap and (eventually) vibrate)
 static void toggle_bluetooth_icon(bool connected) {
-  if(appStarted && !connected && bluetoothvibe) {
+  /*if(appStarted && !connected && bluetoothvibe) {
     //vibe!
     vibes_double_pulse();
-  }
+  }*/
   if(!connected) {
     bitmap_layer_set_bitmap(bluetooth_layer, bluetooth_disconnected_image);  //n3v3r wenn nicht connected, dann anderes symbol zeigen
   }
@@ -393,6 +393,7 @@ set_style();
   // toggle_bluetooth_icon(bluetooth_connection_service_peek()); //n3v3r
   update_battery(battery_state_service_peek());
 
+  //Default configuration values
   Tuplet initial_values[] = {
     TupletInteger(BLINK_KEY, 0),
     TupletInteger(BLUETOOTHVIBE_KEY, 1),

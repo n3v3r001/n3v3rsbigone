@@ -1,346 +1,256 @@
 {
-    "versionLabel": "1.0.1",
-    "uuid": "15a7bb19-d1d9-42b0-92e2-a926091fc3de",
-    "appKeys": {
-        "switch_show_24h_icon": 4,
-        "hourlyvibe": 3,
-        "invert": 1,
-        "blink": 0,
-        "bluetoothvibe": 2,
-        "switch_show_batt_percent": 5
-    },
-    "longName": "n3v3r",
-    "versionCode": 1,
+    "shortName": "n3v3rs big one",
     "capabilities": [
-        ""
+        "configurable"
     ],
-    "shortName": "n3v3r",
-    "companyName": "n3v3r",
     "watchapp": {
         "watchface": true
     },
+    "appKeys": {
+        "bluetoothvibe": 2,
+        "switch_show_24h_icon": 4,
+        "hourlyvibe": 3,
+        "switch_show_batt_percent": 5,
+        "invert": 1,
+        "blink": 0
+    },
+    "versionCode": 1,
+    "companyName": "n3v3r",
+    "longName": "n3v3rs big one",
+    "versionLabel": "1.0.1",
+    "uuid": "15a7bb19-d1d9-42b0-92e2-a926091fc3de",
     "resources": {
         "media": [
             {
-                "type": "png",
-                "name": "IMAGE_NUM_RECT_ORIGIN",
-                "file": "images/num_rect_origin.png"
-            },
-            {
-                "type": "png",
-                "name": "IMAGE_BLUETOOTH_CONNECTED",
-                "file": "images/icon_bluetooth_connected.png"
-            },
-            {
-                "type": "png",
-                "name": "IMAGE_NUM_RECT_6",
-                "file": "images/num_rect_6.png"
-            },
-            {
-                "type": "png",
-                "name": "IMAGE_NUM_RECT_9",
-                "file": "images/num_rect_9.png"
-            },
-            {
-                "type": "png",
-                "name": "IMAGE_NUM_RECT_8",
-                "file": "images/num_rect_8.png"
-            },
-            {
-                "type": "png",
-                "name": "IMAGE_NUM_RECT_7",
-                "file": "images/num_rect_7.png"
-            },
-            {
-                "type": "png",
-                "name": "IMAGE_NUM_RECT_5",
-                "file": "images/num_rect_5.png"
-            },
-            {
-                "type": "png",
-                "name": "IMAGE_NUM_RECT_4",
-                "file": "images/num_rect_4.png"
-            },
-            {
-                "type": "png",
-                "name": "IMAGE_NUM_RECT_3",
-                "file": "images/num_rect_3.png"
-            },
-            {
-                "type": "png",
-                "name": "IMAGE_NUM_RECT_2",
-                "file": "images/num_rect_2.png"
-            },
-            {
-                "type": "png",
-                "name": "IMAGE_NUM_RECT_1",
-                "file": "images/num_rect_1.png"
-            },
-            {
-                "type": "png",
-                "name": "IMAGE_NUM_RECT_0",
-                "file": "images/num_rect_0.png"
-            },
-            {
-                "type": "png",
-                "name": "IMAGE_BLUETOOTH_DISCONNECTED",
-                "file": "images/icon_bluetooth_disconnected.png"
-            },
-            {
-                "type": "png",
-                "name": "IMAGE_DAY_NAME_DE_WED",
-                "file": "images/visitor-wednesday_de.png"
-            },
-            {
-                "type": "png",
-                "name": "IMAGE_DAY_NAME_DE_THU",
-                "file": "images/visitor-thursday_de.png"
-            },
-            {
-                "type": "png",
-                "name": "IMAGE_DAY_NAME_DE_SUN",
-                "file": "images/visitor-sunday_de.png"
-            },
-            {
-                "type": "png",
-                "name": "IMAGE_DAY_NAME_DE_SAT",
-                "file": "images/visitor-saturday_.png"
-            },
-            {
-                "type": "png",
-                "name": "IMAGE_DAY_NAME_DE_MON",
-                "file": "images/visitor-monday_de.png"
-            },
-            {
-                "type": "png",
-                "name": "IMAGE_DAY_NAME_DE_FRI",
-                "file": "images/visitor-friday_de.png"
-            },
-            {
-                "type": "png",
-                "name": "IMAGE_DAY_NAME_DE_TUE",
-                "file": "images/visitor-tuesday_de.png"
-            },
-            {
-                "type": "png",
-                "name": "IMAGE_SEPARATOR",
-                "file": "images/separator.png"
-            },
-            {
-                "menuIcon": true,
-                "type": "png",
+                "file": "images/menu_icon_91w.png",
                 "name": "IMAGE_MENU_ICON",
-                "file": "images/menu_icon_91w.png"
+                "type": "png",
+                "menuIcon": true
             },
             {
-                "type": "png",
-                "name": "IMAGE_24_HOUR_MODE",
-                "file": "images/time_format_24H.png"
-            },
-            {
-                "type": "png",
-                "name": "IMAGE_PM_MODE",
-                "file": "images/time_format_PM.png"
-            },
-            {
-                "type": "png",
-                "name": "IMAGE_NUM_0",
-                "file": "images/num_0.png"
-            },
-            {
-                "type": "png",
-                "name": "IMAGE_NUM_1",
-                "file": "images/num_1.png"
-            },
-            {
-                "type": "png",
-                "name": "IMAGE_NUM_2",
-                "file": "images/num_2.png"
-            },
-            {
-                "type": "png",
-                "name": "IMAGE_NUM_3",
-                "file": "images/num_3.png"
-            },
-            {
-                "type": "png",
-                "name": "IMAGE_NUM_4",
-                "file": "images/num_4.png"
-            },
-            {
-                "type": "png",
-                "name": "IMAGE_NUM_5",
-                "file": "images/num_5.png"
-            },
-            {
-                "type": "png",
-                "name": "IMAGE_NUM_6",
-                "file": "images/num_6.png"
-            },
-            {
-                "type": "png",
-                "name": "IMAGE_NUM_7",
-                "file": "images/num_7.png"
-            },
-            {
-                "type": "png",
-                "name": "IMAGE_NUM_8",
-                "file": "images/num_8.png"
-            },
-            {
-                "type": "png",
-                "name": "IMAGE_NUM_9",
-                "file": "images/num_9.png"
-            },
-            {
-                "type": "png",
-                "name": "IMAGE_BATTERY_CHARGE",
-                "file": "images/icon_battery_charge.png"
-            },
-            {
-                "type": "png",
-                "name": "IMAGE_BATTERY",
-                "file": "images/icon_battery.png"
-            },
-            {
-                "type": "png",
-                "name": "IMAGE_TINY_0",
-                "file": "images/tiny_0.png"
-            },
-            {
-                "type": "png",
-                "name": "IMAGE_TINY_1",
-                "file": "images/tiny_1.png"
-            },
-            {
-                "type": "png",
-                "name": "IMAGE_TINY_2",
-                "file": "images/tiny_2.png"
-            },
-            {
-                "type": "png",
-                "name": "IMAGE_TINY_3",
-                "file": "images/tiny_3.png"
-            },
-            {
-                "type": "png",
-                "name": "IMAGE_TINY_4",
-                "file": "images/tiny_4.png"
-            },
-            {
-                "type": "png",
-                "name": "IMAGE_TINY_5",
-                "file": "images/tiny_5.png"
-            },
-            {
-                "type": "png",
-                "name": "IMAGE_TINY_6",
-                "file": "images/tiny_6.png"
-            },
-            {
-                "type": "png",
-                "name": "IMAGE_TINY_7",
-                "file": "images/tiny_7.png"
-            },
-            {
-                "type": "png",
-                "name": "IMAGE_TINY_8",
-                "file": "images/tiny_8.png"
-            },
-            {
-                "type": "png",
-                "name": "IMAGE_TINY_9",
-                "file": "images/tiny_9.png"
-            },
-            {
-                "type": "png",
-                "name": "IMAGE_TINY_PERCENT",
-                "file": "images/tiny_percent.png"
-            },
-            {
-                "type": "png",
-                "name": "IMAGE_DAY_NAME_EN_SUN",
-                "file": "images/visitor-sunday.png"
-            },
-            {
-                "type": "png",
-                "name": "IMAGE_DAY_NAME_EN_THU",
-                "file": "images/visitor-thursday.png"
-            },
-            {
-                "type": "png",
-                "name": "IMAGE_DAY_NAME_EN_MON",
-                "file": "images/visitor-monday.png"
-            },
-            {
-                "type": "png",
-                "name": "IMAGE_DAY_NAME_EN_TUE",
-                "file": "images/visitor-tuesday.png"
-            },
-            {
-                "type": "png",
-                "name": "IMAGE_DAY_NAME_EN_WED",
-                "file": "images/visitor-wednesday.png"
-            },
-            {
-                "type": "png",
-                "name": "IMAGE_DAY_NAME_EN_FRI",
-                "file": "images/visitor-friday.png"
-            },
-            {
-                "type": "png",
-                "name": "IMAGE_DAY_NAME_EN_SAT",
-                "file": "images/visitor-saturday.png"
-            },
-            {
-                "type": "png",
-                "name": "IMAGE_DATENUM_2",
-                "file": "images/movie-rotated-2.png"
-            },
-            {
-                "type": "png",
-                "name": "IMAGE_DATENUM_1",
-                "file": "images/movie-rotated-1.png"
-            },
-            {
-                "type": "png",
-                "name": "IMAGE_DATENUM_4",
-                "file": "images/movie-rotated-4.png"
-            },
-            {
-                "type": "png",
-                "name": "IMAGE_DATENUM_3",
-                "file": "images/movie-rotated-3.png"
-            },
-            {
-                "type": "png",
-                "name": "IMAGE_DATENUM_5",
-                "file": "images/movie-rotated-5.png"
-            },
-            {
-                "type": "png",
-                "name": "IMAGE_DATENUM_6",
-                "file": "images/movie-rotated-6.png"
-            },
-            {
-                "type": "png",
-                "name": "IMAGE_DATENUM_7",
-                "file": "images/movie-rotated-7.png"
-            },
-            {
-                "type": "png",
-                "name": "IMAGE_DATENUM_8",
-                "file": "images/movie-rotated-8.png"
-            },
-            {
-                "type": "png",
-                "name": "IMAGE_DATENUM_9",
-                "file": "images/movie-rotated-9.png"
-            },
-            {
-                "type": "png",
+                "file": "images/movie-rotated-0.png",
                 "name": "IMAGE_DATENUM_0",
-                "file": "images/movie-rotated-0.png"
+                "type": "png"
+            },
+            {
+                "file": "images/movie-rotated-9.png",
+                "name": "IMAGE_DATENUM_9",
+                "type": "png"
+            },
+            {
+                "file": "images/movie-rotated-8.png",
+                "name": "IMAGE_DATENUM_8",
+                "type": "png"
+            },
+            {
+                "file": "images/movie-rotated-7.png",
+                "name": "IMAGE_DATENUM_7",
+                "type": "png"
+            },
+            {
+                "file": "images/movie-rotated-6.png",
+                "name": "IMAGE_DATENUM_6",
+                "type": "png"
+            },
+            {
+                "file": "images/movie-rotated-5.png",
+                "name": "IMAGE_DATENUM_5",
+                "type": "png"
+            },
+            {
+                "file": "images/movie-rotated-3.png",
+                "name": "IMAGE_DATENUM_3",
+                "type": "png"
+            },
+            {
+                "file": "images/movie-rotated-4.png",
+                "name": "IMAGE_DATENUM_4",
+                "type": "png"
+            },
+            {
+                "file": "images/movie-rotated-1.png",
+                "name": "IMAGE_DATENUM_1",
+                "type": "png"
+            },
+            {
+                "file": "images/movie-rotated-2.png",
+                "name": "IMAGE_DATENUM_2",
+                "type": "png"
+            },
+            {
+                "file": "images/tiny_percent.png",
+                "name": "IMAGE_TINY_PERCENT",
+                "type": "png"
+            },
+            {
+                "file": "images/tiny_9.png",
+                "name": "IMAGE_TINY_9",
+                "type": "png"
+            },
+            {
+                "file": "images/tiny_8.png",
+                "name": "IMAGE_TINY_8",
+                "type": "png"
+            },
+            {
+                "file": "images/tiny_7.png",
+                "name": "IMAGE_TINY_7",
+                "type": "png"
+            },
+            {
+                "file": "images/tiny_6.png",
+                "name": "IMAGE_TINY_6",
+                "type": "png"
+            },
+            {
+                "file": "images/tiny_5.png",
+                "name": "IMAGE_TINY_5",
+                "type": "png"
+            },
+            {
+                "file": "images/tiny_4.png",
+                "name": "IMAGE_TINY_4",
+                "type": "png"
+            },
+            {
+                "file": "images/tiny_3.png",
+                "name": "IMAGE_TINY_3",
+                "type": "png"
+            },
+            {
+                "file": "images/tiny_2.png",
+                "name": "IMAGE_TINY_2",
+                "type": "png"
+            },
+            {
+                "file": "images/tiny_1.png",
+                "name": "IMAGE_TINY_1",
+                "type": "png"
+            },
+            {
+                "file": "images/tiny_0.png",
+                "name": "IMAGE_TINY_0",
+                "type": "png"
+            },
+            {
+                "file": "images/icon_battery.png",
+                "name": "IMAGE_BATTERY",
+                "type": "png"
+            },
+            {
+                "file": "images/icon_battery_charge.png",
+                "name": "IMAGE_BATTERY_CHARGE",
+                "type": "png"
+            },
+            {
+                "file": "images/time_format_PM.png",
+                "name": "IMAGE_PM_MODE",
+                "type": "png"
+            },
+            {
+                "file": "images/time_format_24H.png",
+                "name": "IMAGE_24_HOUR_MODE",
+                "type": "png"
+            },
+            {
+                "file": "images/separator.png",
+                "name": "IMAGE_SEPARATOR",
+                "type": "png"
+            },
+            {
+                "file": "images/visitor-tuesday_de.png",
+                "name": "IMAGE_DAY_NAME_DE_TUE",
+                "type": "png"
+            },
+            {
+                "file": "images/icon_bluetooth_disconnected.png",
+                "name": "IMAGE_BLUETOOTH_DISCONNECTED",
+                "type": "png"
+            },
+            {
+                "file": "images/visitor-friday_de.png",
+                "name": "IMAGE_DAY_NAME_DE_FRI",
+                "type": "png"
+            },
+            {
+                "file": "images/visitor-monday_de.png",
+                "name": "IMAGE_DAY_NAME_DE_MON",
+                "type": "png"
+            },
+            {
+                "file": "images/visitor-saturday_.png",
+                "name": "IMAGE_DAY_NAME_DE_SAT",
+                "type": "png"
+            },
+            {
+                "file": "images/visitor-sunday_de.png",
+                "name": "IMAGE_DAY_NAME_DE_SUN",
+                "type": "png"
+            },
+            {
+                "file": "images/visitor-thursday_de.png",
+                "name": "IMAGE_DAY_NAME_DE_THU",
+                "type": "png"
+            },
+            {
+                "file": "images/visitor-wednesday_de.png",
+                "name": "IMAGE_DAY_NAME_DE_WED",
+                "type": "png"
+            },
+            {
+                "file": "images/icon_bluetooth_connected.png",
+                "name": "IMAGE_BLUETOOTH_CONNECTED",
+                "type": "png"
+            },
+            {
+                "file": "images/num_oval_6.png",
+                "name": "IMAGE_NUM_OVAL_6",
+                "type": "png"
+            },
+            {
+                "file": "images/num_oval_0.png",
+                "name": "IMAGE_NUM_OVAL_0",
+                "type": "png"
+            },
+            {
+                "file": "images/num_oval_1.png",
+                "name": "IMAGE_NUM_OVAL_1",
+                "type": "png"
+            },
+            {
+                "file": "images/num_oval_2.png",
+                "name": "IMAGE_NUM_OVAL_2",
+                "type": "png"
+            },
+            {
+                "file": "images/num_oval_4.png",
+                "name": "IMAGE_NUM_OVAL_4",
+                "type": "png"
+            },
+            {
+                "file": "images/num_oval_3.png",
+                "name": "IMAGE_NUM_OVAL_3",
+                "type": "png"
+            },
+            {
+                "file": "images/num_oval_7.png",
+                "name": "IMAGE_NUM_OVAL_7",
+                "type": "png"
+            },
+            {
+                "file": "images/num_oval_5.png",
+                "name": "IMAGE_NUM_OVAL_5",
+                "type": "png"
+            },
+            {
+                "file": "images/num_oval_8.png",
+                "name": "IMAGE_NUM_OVAL_8",
+                "type": "png"
+            },
+            {
+                "file": "images/num_oval_9.png",
+                "name": "IMAGE_NUM_OVAL_9",
+                "type": "png"
             }
         ]
     }
